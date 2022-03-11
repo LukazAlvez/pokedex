@@ -21,7 +21,7 @@ let pokemon = {
 // Faz a busca na api
 async function searchPokemon(){
     // pega valou do imput
-    let search = input.value;
+    let search = input.value.toLowerCase();
 
     // verificar se o input está vazio
     if(search.length == 0){
